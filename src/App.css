@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+nav{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+min-height: 10vh;
+background-color: grey;
+color: white;
+padding-top: 15px;
+font-style: inherit; 
+
+
+
+}
+
+.nav-links {
+
+width:50%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+
+
+
+}
+li:hover{
+
+  
+  cursor: pointer;
+  background-color: lightgreen;
+
+}
+
+li{
+
+width:190px;
+height: 100px;
+padding-right: 50px; 
+padding-top: 20px;
+margin-left: 60px;
+border-color: cadetblue;
+border-style: solid;
+margin-top: 12px;
+
+
+animation-name: example;
+animation-duration: 4s;
+
+}
+
+@keyframes example {
+  0%   { margin-left:0px; }
+  25%  { margin-left:200px; }
+  75%  { margin-left:100;   }
+  100% { margin-left:60px; }
+}
+
+
+.heading3{
+
+
+border-style: solid;
+width: 700px;
+margin-left: 40px;
+border-color:grey;
+padding: 20px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.score{
+
+margin-left: 590px;
+
+border-style: solid;
+border-color:purple;
+width: 200px;
+padding: 20px;
+position: absolute;
+margin-top: 10px;
+font-size: 22px;
+
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+
+animation: example1;
+animation-duration: 4s;
+
+}
+
+
+
+@keyframes example1 {
+  0%   { margin-top:0px; }
+  25%  { margin-top:200px; }
+  75%  { margin-top:100;   }
+  100% { margin-top:10px; }
+}
